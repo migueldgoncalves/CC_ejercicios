@@ -9,3 +9,5 @@ Para evolucionar la aplicación a un patrón tipo microservicios, es necesário 
 2 - En la aplicación que se ha usado como ejemplo en el ejercicio anterior, ¿podría usar diferentes lenguajes? ¿Qué almacenes de datos serían los más convenientes?
 
 R: Asumiendo que se pretende evolucionar la aplicación a un patrón tipo microservicios, es totalmente posible que se utilicen diferentes lenguajes en la aplicación. Los tipos y parametros de los datos son fijos, dado que serán sólo horarios y precios de viajes, así como noticias con sus titulos, cuerpos e región. Siendo así, es viable utilizar bases de datos relacionales basadas en SQL e aprovechar su maturidad e compatibilidad entre plataformas.
+
+21/10/2018
