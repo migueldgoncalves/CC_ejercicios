@@ -1,0 +1,20 @@
+---
+- hosts: azure
+  become: yes
+  become_user: root
+  tasks:
+   - name: Install Java 8
+     apt:
+      name: default-jdk
+      state: present
+
+   - name: Install Git
+     apt:
+      name: git
+      state: present
+
+   - name: Install Maven
+     apt:
+      name: maven
+      state: present
+...
