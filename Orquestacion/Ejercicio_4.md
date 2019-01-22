@@ -18,6 +18,8 @@ Antes de ejecutarse el Vagrantfile, se ha creado un [Azure Active Directory serv
 
 Por fin, con el Vagrantfile y el playbook de Ansible `playbook.yml` en un mismo directorio, y un fichero de llave privada `id_rsa` en el directorio por defecto `~/.ssh`, se ha ejecutado el Vagrantfile con el comando `vagrant up`.
 
+El output de la ejecución del Vagrantfile se puede ver [aquí](https://github.com/migueldgoncalves/CC_ejercicios/blob/master/Orquestacion/Ejercicio_4_files/Vagrant_up.png), y la comprobación de la correcta instalación de Java, Git y Maven en la máquina virtual Azure se puede ver [aquí](https://github.com/migueldgoncalves/CC_ejercicios/blob/master/Orquestacion/Ejercicio_4_files/Vagrant_ssh.png).
+
 Fuentes principales:
 
 https://blog.scottlowe.org/2017/12/11/using-vagrant-with-azure/
